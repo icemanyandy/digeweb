@@ -1,0 +1,70 @@
+Face Attendance Pro's Privacy Policy
+
+Update date: April 2, 2018
+
+Face Attendance Pro is a piece of app software developed, maintained and operated by Softboy Tech Co., Ltd. (hereinafter referred to as "Benqumark Tech", "we" or "us"). We hold the belief that we will fully respect our users' right of privacy.
+
+Benqumark Tech ("we", "us" or "our") commits ourselves to protecting the privacy right of each user ("user" or "you"). This Privacy Policy ("this Policy") aims to explain to you how we collect, store, use, manage and protect your user information (including personal information) when you use our website and services. We mainly collect such information via the following website: http://www.softboys.com ("our website") or Wuta apps available for other mobile devices ("our services"), such as IOS and Android.
+
+You should note that this Policy is only limited to the user information submitted by you or collected by Wuta Camera (including personal information) when you use our website and app software services. "Personal information" hereunder shall mean any data that can identify any individual by linking such information or any other information of such individual that can be accessed by Wuta Camera, including your name, address, phone number, etc.
+
+By using our website and our app software services, you agree to this Policy and to collect, deal with, disclose and share your user information (including your personal information) according to the method specified in this Policy. If you do not agree to this Policy and any term of any future modified version, you should not use our website and our app software services.
+
+If you have any questions regarding this Policy or any privacy issue, please contact us by emailing support@wuta-camera.com.
+
+Information Collection and Use
+
+In order to provide you our website and services better, we will, when you use Wuta Camera collect your personal information and user information in accordance with this Policy, to the extent permitted by laws and only when you visit our website or use any of our functions or services. If you fail to provide such information, we may probably be unable to provide our products or services.
+
+When you visit our website and use our services, we may suggest that you register a Wuta account so as to help you fully exploit our application, services and their advantages. When you register a Wuta account, we will collect your recognizable identity information you provide. Such information includes your account name, mobile phone number and other information necessary for registration of Wuta Camera account. The specific information collected includes but not limited to:
+
+Device information: When you use our services on your mobile device, we will collect your information regarding your device, such as International Mobile Equipment Identity ("IMEI"), identifiers for advertising ("IDFA" and "IDFV"), Integrate Circuit Card Identity ("ICCID") and Medium Access Control ("MAC") address, device model and device resolution rate, so as to facilitate our statistics of devices using our products and services and our data analysis and graphics adaptability analysis of device models.
+
+Location information: Location information collected by us from you, such as national code, longitude and latitude, network position, IP address, system setup, country and time zone, etc. Such information will help us understand the distribution and application scenes of our users and enable us to provide correct app versions and more excellent services. Unless otherwise specified herein, we will not share such information with any third party. If you do not wish us to track or use your specific location information, you may have the option to disable network, GPS or our authority to acquire your network, GPS and device information on your device.
+
+Software log information: Software running information, such as error and crash logs. When there is a trouble with any program, such information may help us to find out the cause for such problem and improve the stability of our software.
+
+Advertisement information: We may distribute advertisements in our services and collect and use your relevant information for the purpose of tracking advertisements, such as your equipment identifier, MAC address, IMEI, geographical location and IP address. Such information aims to create internal user numbers and help us to count and track the advertisements based on language, location and other details. We will not sell such information to any third party.
+
+Information collected by third-party service providers: Our services may possibly include third-party tracking tools of our service providers. Third-party service providers may possibly use cookies, APIs (Application Programming Interfaces) and SDKs (Software Development Kits) in our services provided to collect and analyze user information for and on behalf of us. Third-party service providers may visit your equipment identifier, MAC address, IMEI, region (particular address for using a given language), location and IP address, etc., aiming to provide services under their privacy policies. Our Privacy Policy will not cover the use of third-party tracking tools and we have no authority to visit or control such third parties.
+
+Other information: We may possibly collect other types of information that does not relate to individuals, such as operating system type and version number for understanding system upgrading conditions, system language for language matching, and application list for understanding users' interests and hobbies. Such information will be used for our statistics and analysis so as to help optimize our services.
+
+Information Use and Protection
+
+The collection of user information and personal information aims to provide you our products and services and guarantee that we comply with applicable laws. We will use your user information and personal information for the following purposes:
+
+Product service. For providing, processing, maintaining, improving and developing our applications and website and/or our services provided to you, including customer support and other services provided via device or website.
+Statistics and analysis. For analysis and development of statistical information that relates to the use of our products and services so as to improve our products and services better.
+To create your Wuta account. The personal information collected by us when you create a Wuta account by using our app or services will be used to establish your personal Wuta account and data page.
+To provide services based on location. When using our services, we or our services providers may possibly use location information to provide you services of correct version, and the accurate location will enable you to acquire user experience as well as possible.
+To collect your feedback. You feedback will be of great value for us to improve our beauty camera service. In order to track your feedback, we may possibly use the personal information you provide to contact you and reserve records.
+Others. The stored and maintained information relating to you will be used for us to operate business or fulfill legal obligations.
+Information Sharing and Disclosure
+
+We will not sell any personal information to any third party. Unless either of the following circumstances occurs, we will have no rights to share with or disclose to any third party all or part of your personal information:
+
+To protect personal or property safety of others;
+To prevent from or eliminate online fraud;
+To maintain lawful rights and benefits of Benqumark Tech;
+To achieve the goal mentioned in the section "Information Collection and Use" to the extent that the receiver of such disclosed information shall agree to be bound by this Policy and provide enough protection for the information;
+To observe laws, regulations, requirements of government authorities or juridical organs; all these requirements are generally intended for protecting cyber security and rights, property and safety of us, our users and third parties.
+Guarantee of Data and Information Security
+
+We shall take reasonable measures to prevent the loss, improper use, unauthorized access or disclosure of our information. For example, in some services, we will protect your personal information by using encryption technique (such as SSL). You are requested to understand that we cannot guarantee 100% information security (in the internet industry) even if we try all our efforts to enhance our security measures. You should understand that you access to our system and communication network for our service may encounter problems due to our uncontrollable factors.
+
+We will protect your data security by using various types of security and encryption methods, such as SSL and TLS. However, we cannot guarantee absolute security of your data even if we do so. You are requested to understand the existence of such risk involved.
+
+We will take all proper and suitable technical measures to guarantee your access, update and modification of your personal information or other personal information provided by you when you use our services. When visiting, updating, changing or deleting the above personal information, we may possibly request you for identity authentication so as to guarantee your account security.
+
+Data Reservation and Deletion
+
+In accordance with applicable laws and regulations requirements, we will reserve your information (including personal information) in accordance with the above chapter or within the time scope of providing you services. If you wish to cancel your consent to our collection, use and disclosure of your personal information we collect or to cancel your personal information, please send an email to support@wuta-canmera.com. We will respond to your request within the reasonable time of receiving your email and will not collect, use and disclose your personal information later. Please note that your cancellation of your consent or deletion of your personal information may probably affect your use of some services.
+
+Applicable Laws
+
+This Policy, including but not limited to its execution, effect, interpretation, performance and dispute resolution, shall be governed by laws of the People's Republic of China (excluding laws of the Hong Kong Special Administrative Region and Macau Special Administrative Region). We do not express or warrant that this policy is in line with the privacy law of any jurisdiction. Thus, you should not interpret this Policy in accordance with such laws.
+
+Policy Update
+
+We will update this Policy in accordance with laws, regulations or our business decisions concerning beauty camera. If there is any change in this Policy, we will indicate the update date in an eye-catching place. We suggest you check our updated information each time. If you continue to use our products and services following any update, it indicates you consent to our Terms of Use and all terms of the Privacy Policy.
