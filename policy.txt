@@ -6,17 +6,17 @@ Face Attendance Pro is a piece of app software developed, maintained and operate
 
 Softboy Tech ("we", "us" or "our") commits ourselves to protecting the privacy right of each user ("user" or "you"). This Privacy Policy ("this Policy") aims to explain to you how we collect, store, use, manage and protect your user information (including personal information) when you use our website and services. We mainly collect such information via the following website: http://www.softboys.com ("our website") or Wuta apps available for other mobile devices ("our services"), such as IOS and Android.
 
-You should note that this Policy is only limited to the user information submitted by you or collected by Camera (including personal information) when you use our website and app software services. "Personal information" hereunder shall mean any data that can identify any individual by linking such information or any other information of such individual that can be accessed by Wuta Camera, including your name, address, phone number, etc.
+You should note that this policy is limited to user information (including personal information) submitted by you or collected by the camera when you use our website and application software services. “Personal Information” in the following refers to any personal data that can be identified by linking such information or such personal information (including your name, address, telephone number, etc.) that can be accessed by the camera.
 
-By using our website and our app software services, you agree to this Policy and to collect, deal with, disclose and share your user information (including your personal information) according to the method specified in this Policy. If you do not agree to this Policy and any term of any future modified version, you should not use our website and our app software services.
+By using our website and our application software services, you agree to this policy and collect, process, disclose and share your user information (including your personal information) in accordance with the methods set forth in this policy. If you do not agree with this policy and any terms of any future modified version, please do not use our website and our application software services.
 
-If you have any questions regarding this Policy or any privacy issue, please contact us by emailing icemanyandy@163.com.
+If you have any questions about this policy or any privacy issues, please contact us at icemanyandy@163.com.
 
-Information Collection and Use
+Information collection and use
 
-In order to provide you our website and services better, we will, when you use Camera collect your personal information and user information in accordance with this Policy, to the extent permitted by laws and only when you visit our website or use any of our functions or services. If you fail to provide such information, we may probably be unable to provide our products or services.
+In order to better provide you with our website and services, we will collect your personal information and user information according to this policy when you use the camera, as long as you visit our website or use any of our functions or services. If you fail to provide such information, we may not be able to provide our products or services.
 
-When you visit our website and use our services, we may suggest that you register a Wuta account so as to help you fully exploit our application, services and their advantages. When you register a Wuta account, we will collect your recognizable identity information you provide. Such information includes your account name, mobile phone number and other information necessary for registration of Wuta Camera account. The specific information collected includes but not limited to:
+When you visit our website and use our service, you need to enter your face picture via the camera first, and enter the picture name. You need to obtain the device IMEI so that you can easily manage and view the device as a code for the attendance. The specific information collected includes but not limited to:
 
 Device information: When you use our services on your mobile device, we will collect your information regarding your device, such as International Mobile Equipment Identity ("IMEI"), identifiers for advertising ("IDFA" and "IDFV"), Integrate Circuit Card Identity ("ICCID") and Medium Access Control ("MAC") address, device model and device resolution rate, so as to facilitate our statistics of devices using our products and services and our data analysis and graphics adaptability analysis of device models.
 
