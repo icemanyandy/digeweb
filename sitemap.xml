@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"     
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"     
+ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9            
+ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url> 
+     <loc>http://www.motionface.cn</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ <url> 
+     <loc>http://www.motionface.cn/index_backup.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ <url> 
+     <loc>http://www.motionface.cn/blogs/motionface人脸重建活体技术实现原理简介.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ <url> 
+     <loc>http://www.motionface.cn/blogs/Motionface%E7%9B%B8%E7%89%87%E8%99%9A%E6%8B%9F%E4%BA%BA%E7%89%A9%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+  <url> 
+     <loc>http://www.motionface.cn/blogs/motionFace_help.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ <url> 
+     <loc>http://www.motionface.cn/iflashplayer/index.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ 
+</urlset>

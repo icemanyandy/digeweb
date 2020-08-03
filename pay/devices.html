@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>我的设备信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.65,maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style type="text/css">
+        body{
+            background-color: #EFEFEF;
+            padding: 0;
+            margin: 0;
+            color: #999;
+
+        }
+
+
+        .write-wrapper{
+            height: 3.4rem;
+            line-height: 3.4rem;
+            width: 92%;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 30px;
+            box-shadow: 2px 3px 5px #e4e3e3;
+            background-color: #FFFFFF;
+            font-size: 12px;
+            border-radius: 5px 5px 5px 5px;
+            padding-bottom: 0.8rem;
+        }
+
+        .write-wrapper-text{
+            font-size: 1.2rem;
+            margin-left: 1.6rem;
+            color: #444;
+        }
+
+        .write-wrapper-input{
+            width: 79%;
+            height: 2.0rem;
+            font-size: 1.2rem;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            color: #555;
+        }
+
+        .write-wrapper-submit{
+            height: 2.4rem;
+            width: 4.0rem;
+            font-size: 1.1rem;
+            margin-left: 0.3rem;
+            margin-top: 1.0rem;
+        }
+
+        .body{
+            width: 92%;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 30px;
+            box-shadow: 2px 3px 5px #e4e3e3;
+            background-color: #FFFFFF;
+            font-size: 15px;
+            border-radius: 15px 5px 15px 5px;
+            padding-bottom: 0.8rem;
+						overflow:hidden;
+
+        }
+        .time{
+            width: 100%;
+            height: 4rem;
+            line-height: 4rem;
+            font-size: 1.1rem;
+            color: #666;
+
+        }
+        .time-l{
+            margin-left: 2%;
+        }
+        .wrapper{
+            width: 100%;
+            height: 3.3rem;
+            line-height: 3.3rem;
+            display:  flex;
+            flex-direction: row;
+            margin-top: 0px;
+            position: relative;
+
+        }
+        .left-wrapper{
+            margin-left: 2%;
+        }
+        .sound{
+            height: 3.3rem;
+            width: 3.3rem;
+            display: flex;
+            flex-direction: column;
+             align-items: center;
+        }
+        .sound-top{
+            width: 0.1rem;
+            height: 1.1rem;
+            background-color: #d8d3d3;
+        }
+        .sound-middle{
+            width: 1.1rem;
+            height: 1.1rem;
+            background-color: #fff;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+        }
+        .sound-bottom{
+            width: 0.1rem;
+            height: 1.1rem;
+            background-color: #d8d3d3;
+        }
+        .footer{
+            height: 6rem;
+        }
+        .write{
+            width: 2.4rem;
+            height: 2.4rem;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 3.8rem;
+            right: 10%;
+            cursor:pointer;
+
+        }
+
+        .write-icon{
+            font-size: 2.4rem;
+            color: #999;
+            border-radius: 50%;
+        }
+
+
+    </style>
+     <script type="text/javascript" src="Bmob-1.7.1.min.js"></script>
+	 <script type="text/javascript" src="devices.js"></script>
+
+</head>
+<body>
+    <div class="write-wrapper">
+        <form action="#" method="post" onsubmit="return beforeSubmit()">
+        <span class="write-wrapper-text">我的设备记录</span>
+		
+        <!--input class="write-wrapper-input" id="title" type="text"  placeholder="时间轴笔记...." name="title" /-->
+         <!--input class="write-wrapper-submit" type="submit" value="提交" /-->
+    </form>
+
+    </div>
+    <div id="bmob"></div>   
+
+    <div class="footer"></div>
+    <div class="write">
+        <i class="iconfont icon-jia write-icon"></i>
+    </div>
+	    <script type="text/javascript">
+		
+	var key = getUrlParameter('key');
+	var conferid = getUrlParameter('content');
+
+	if(key==null || key=="" || key=='undefined'){	
+		if(localStorage.mpdeviceid){
+		    key = localStorage.mpdeviceid;
+		}
+	}
+	
+	initbmob(key);
+        
+
+     function getUrlParameter(name){
+        name = name.replace(/[]/,"\[").replace(/[]/,"\[").replace(/[]/,"\\\]");
+        var regexS = "[\\?&]"+name+"=([^&#]*)";
+        var regex = new RegExp( regexS );
+        var results = regex.exec(window.parent.location.href );
+        if( results == null ) return ""; else {
+            return results[1];
+        }
+    };
+	
+
+	
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?25b0ed902d3ab136024e4481bbaa349a";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+</body>
+</html>
