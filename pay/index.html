@@ -233,22 +233,22 @@
 			var timestamp =  (new Date()).getTime();//Date.parse("2020-03-10 10:48:58");
 			console.log("res :"+ (timestamp - startTime));
 			
-			if((timestamp - startTime) < 24*1000*60 * 60*1){
-				discountTime =  24 * 60 * 60  - (timestamp - startTime)/1000;
-				discountTimeOutCount();
-			}else{
-				discountTimeOutCount();
-			}
-			
-			
-			//11.11
-			//var endtimestamp =  Date.parse("2020-11-11 23:59:59");
-			//if((timestamp - endtimestamp) < 0){
-			//	discountTime =  (endtimestamp - timestamp)/1000;
+			//if((timestamp - startTime) < 24*1000*60 * 60*1){
+			//	discountTime =  24 * 60 * 60  - (timestamp - startTime)/1000;
 			//	discountTimeOutCount();
 			//}else{
 			//	discountTimeOutCount();
 			//}
+			
+			
+			//11.11
+			var endtimestamp =  Date.parse("2020-12-12 23:59:59");
+			if((timestamp - endtimestamp) < 0){
+				discountTime =  (endtimestamp - timestamp)/1000;
+				discountTimeOutCount();
+			}else{
+				discountTimeOutCount();
+			}
 			
 			}
 			
@@ -262,7 +262,7 @@
 		if(discountTime>0){
 				document.getElementById('user-info').innerHTML = '<center>设备信息:'+key+'</center>';
 
-			var stringf ="新人优惠价将在<font size=\"3\" color=\"f0f0f0\">"+Math.floor( (discountTime/60/60)) +"时"+Math.floor( (discountTime/60%60)) +"分"+Math.floor((discountTime%60))+"秒</font>后恢复原价<br>";
+			var stringf ="双12特惠,错过再等一年.<br>优惠价将在<font size=\"3\" color=\"f0f0f0\">"+Math.floor( (discountTime/60/60)) +"时"+Math.floor( (discountTime/60%60)) +"分"+Math.floor((discountTime%60))+"秒</font>后恢复原价<br>";
 			discountTime=discountTime-1;
 			setTimeout("discountTimeOutCount()",1000)
 			
