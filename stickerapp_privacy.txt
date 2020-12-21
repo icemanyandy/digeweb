@@ -11,7 +11,7 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 **Information Collection and Use**
 
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your Device band,Device model which are used to be your name in the app. The information that we request will be retained by us and used as described in this privacy policy.
+For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your Device band,Device model ,Device Name,Device product name,Device sdkint,Device phonebuildid. The information that we request will be retained by us and used as described in this privacy policy.
 
 When you choose to share your picture, the app will access your storage and upload to our server then share it with others so that others can see this picture.
 
