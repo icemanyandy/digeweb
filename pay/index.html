@@ -266,7 +266,7 @@
 		if(discountTime>0){
 				document.getElementById('user-info').innerHTML = '<center>设备信息:'+key+'</center>';
 
-			var stringf ="<br><font size=\"3\" color=\"F0F0F0">2021新年新特惠截止于0107</font><br>优惠价将在<font size=\"3\" color=\"f0f0f0\">"+Math.floor( (discountTime/60/60)) +"时"+Math.floor( (discountTime/60%60)) +"分"+Math.floor((discountTime%60))+"秒</font>后恢复原价<br>";
+			var stringf ="<br><font size=\"3\" color=\"F0F0F0\">2021新年新特惠截止于0107</font><br>优惠价将在<font size=\"3\" color=\"f0f0f0\">"+Math.floor( (discountTime/60/60)) +"时"+Math.floor( (discountTime/60%60)) +"分"+Math.floor((discountTime%60))+"秒</font>后恢复原价<br>";
 			discountTime=discountTime-1;
 			setTimeout("discountTimeOutCount()",1000)
 			
