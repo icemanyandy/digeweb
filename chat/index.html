@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="chat.css">
 	<script src="data.js"></script>
 	<script src="Bmob-1.7.1.min.js"></script>
+	<script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
+
 	
 </head>
 <body lang="zh">
@@ -105,7 +107,14 @@
 	  initDeviceInfo(getUrlParameter("fromDeviceID"),getUrlParameter("toDeviceID"));
 	  getMsgFromServer(null);
 	  loopMessage(6000);
-	  
+	  saveLogInfo(returnCitySN["cip"],returnCitySN["cname"]);
+	  var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?25b0ed902d3ab136024e4481bbaa349a";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
 	  </script>
 </body>
 </html>
