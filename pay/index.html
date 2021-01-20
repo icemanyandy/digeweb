@@ -440,6 +440,7 @@
     })*/
  
     const query = Bmob.Query("danmu");
+	query.order("-updatedAt");
     query.find().then(res => {
 			for(var i = 0; i < res.length; i++) {
 				 barage.shoot(res[i].content);
