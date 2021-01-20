@@ -387,7 +387,7 @@
         shoot(text) {
             let div = document.createElement('div');
             div.style.position = 'absolute';
-            div.style.left = this.domWidth +Math.random().toFixed(3)* this.domWidth+ 'px';
+            div.style.left = this.domWidth + Math.random().toFixed(4)* this.domWidth*2 + 'px';
             div.style.top = (this.domHeight - 20) * Math.random().toFixed(2) + 'px';
             div.style.whiteSpace = 'nowrap';
             div.style.color = '#' + Math.floor(Math.random() * 0xffffff).toString(16);
