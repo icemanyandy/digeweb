@@ -371,6 +371,7 @@
 	}
 	
 	 
+	var steps = 0;
     class Barrage {
         constructor(id) {
             this.domList = [];
@@ -387,7 +388,7 @@
         shoot(text) {
             let div = document.createElement('div');
             div.style.position = 'absolute';
-            div.style.left = this.domWidth + Math.random().toFixed(4)* this.domWidth*2 + 'px';
+            div.style.left = this.domWidth +  steps/15* this.domWidth*2 + 'px';
             div.style.top = (this.domHeight - 20) * Math.random().toFixed(2) + 'px';
             div.style.whiteSpace = 'nowrap';
             div.style.color = '#' + Math.floor(Math.random() * 0xffffff).toString(16);
@@ -443,6 +444,7 @@
 	query.order("-updatedAt");
     query.find().then(res => {
 			for(var i = 0; i < res.length; i++) {
+				steps++;
 				 barage.shoot(res[i].content);
 				appendList(res[i].content);
 			}
