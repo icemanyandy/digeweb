@@ -7,7 +7,7 @@
     <meta name="author" content="mengkun">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>万能收款码</title>
+    <title>Motionface收款码</title>
     
     <script>
     /**
@@ -110,7 +110,7 @@
     /* 防止有些人下载后直接打开，然后问怎么扫不出来…… */ 
     if(!(/^http(s*):\/\//.test(location.href)) || /^http(s*):\/\/localhost/.test(location.href)) {
         alert('本收款码需要网站空间进行中转，请先部署到网站下再使用');
-        window.location.href='https://www.motionface.cn';
+        //window.location.href='https://www.motionface.cn';
     }
     
     if(navigator.userAgent.match(/Alipay/i)) {
@@ -118,12 +118,17 @@
         window.location.href = setting.aliUrl; 
     } else if(navigator.userAgent.match(/MicroMessenger\//i)) {
         /* 微信 */ 
-        document.getElementById("wechat-url").src = QRCode.generatePNG(setting.wechatUrl, { margin: 0 });
+        document.getElementById("wechat-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
         document.getElementById("code-wechat").style.display = "block";
     } else {
         /* 其它，显示“万能码” */ 
-        document.getElementById("page-url").src = QRCode.generatePNG(window.location.href, { margin: 0 });
-        document.getElementById("code-all").style.display = "block";
+        //document.getElementById("page-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
+		        document.getElementById("wechat-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
+
+		//QRCode.generatePNG(window.location.href, { margin: 0 });
+        //document.getElementById("code-all").style.display = "block";
+		document.getElementById("code-wechat").style.display = "block";
+
     }
     </script>
 
