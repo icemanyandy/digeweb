@@ -98,7 +98,7 @@ var _hmt = _hmt || [];
         <div class="code-area">
             <img id="page-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
-        <div class="code-footer">扫描以上二维码向我付款</div>
+        <div class="code-footer">扫描以上二维码向我付款<br>支付问题：+vx 773179801</div>
     </div>
 
     
@@ -108,7 +108,7 @@ var _hmt = _hmt || [];
         <div class="code-area">
             <img id="wechat-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
-        <div class="code-footer">长按以上二维码向我付款</div>
+        <div class="code-footer">长按以上二维码向我付款<br>支付问题：+vx 773179801</div>
     </div>
     
     <script>
@@ -126,12 +126,12 @@ var _hmt = _hmt || [];
         window.location.href = setting.aliUrl; 
     } else if(navigator.userAgent.match(/MicroMessenger\//i)) {
         /* 微信 */ 
-        document.getElementById("wechat-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
+        document.getElementById("wechat-url").src = "http://qr.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
         document.getElementById("code-wechat").style.display = "block";
     } else {
         /* 其它，显示“万能码” */ 
         //document.getElementById("page-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
-		        document.getElementById("wechat-url").src = "https://qrs.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
+		        document.getElementById("wechat-url").src = "http://qr.kegood.com/?m=0&e=L&p=5&url="+(setting.wechatUrl);
 
 		//QRCode.generatePNG(window.location.href, { margin: 0 });
         //document.getElementById("code-all").style.display = "block";
