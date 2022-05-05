@@ -49,6 +49,16 @@ var _hmt = _hmt || [];
 })();
 			
 		</script>
+        
+		<script type="text/javascript">
+
+            var dtGlobals={};dtGlobals.isMobile=(/(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|windows phone)/.test(navigator.userAgent));dtGlobals.isAndroid=(/(Android)/.test(navigator.userAgent));dtGlobals.isiOS=(/(iPhone|iPod|iPad)/.test(navigator.userAgent));dtGlobals.isiPhone=(/(iPhone|iPod)/.test(navigator.userAgent));dtGlobals.isiPad=(/(iPad)/.test(navigator.userAgent));dtGlobals.isBuggy=(navigator.userAgent.match(/AppleWebKit/)&&typeof window.ontouchstart==='undefined'&&!navigator.userAgent.match(/Chrome/));dtGlobals.isWindowsPhone=navigator.userAgent.match(/IEMobile/i);dtGlobals.customColor='red';if(dtGlobals.isMobile){document.documentElement.className+=" mobile-true"}else{document.documentElement.className+=" mobile-false"}dtGlobals.logoURL=false;dtGlobals.logoH=false;dtGlobals.logoW=false;
+            dtGlobals.visit_country_enable = '';
+            dtGlobals.logoEnabled = 1;dtGlobals.curr_id = '15435';dtGlobals.logoURL = '';dtGlobals.logoW = '639';dtGlobals.logoH = '676';dtGlobals.id = '61ea2615344a4';dtGlobals.language = '';smartMenu = 1;document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';
+			dtGlobals.gallery_bgcolor = 'rgba(51,51,51,1)';dtGlobals.gallery_showthumbs = '0';dtGlobals.gallery_style = '';dtGlobals.gallery_autoplay = '0';dtGlobals.gallery_playspeed = '3';dtGlobals.gallery_imagesize = '100';dtGlobals.gallery_imageheight = '100';dtGlobals.gallery_stopbutton = '';dtGlobals.gallery_thumbsposition = '';dtGlobals.gallery_tcolor = '#fff';dtGlobals.gallery_tsize = '16';dtGlobals.gallery_dcolor = '#fff';dtGlobals.gallery_dsize = '14';dtGlobals.gallery_tfamily = '';dtGlobals.gallery_dfamily = '';dtGlobals.gallery_blankclose = '0';dtGlobals.gallery_arrowstyle = '0';dtGlobals.fm_showstyle = '';dtGlobals.fm_showspeed = '';dtGlobals.cdn_url = '';dtGlobals.googlekey = '';dtGlobals.qfymodel = "1";
+			            			var socail_back_url = '';
+			
+		</script>
 <script type="text/javascript">
 if (navigator.language)var language = navigator.language;else var language = navigator.browserLanguage;if(language.indexOf('zh') > -1){}else{document.location.href = '404.html';}
 </script>
@@ -392,6 +402,26 @@ if (navigator.language)var language = navigator.language;else var language = nav
 
 </div><!-- #page -->
 
+<!-- 按钮 -->
+   
+    <!-- 删除确认框 -->
+	<div id="delete" style="border: 1px solid;width: 100%;margin: auto;height: 100%;position: fixed;left: 0px;top: 0px;background: rgb(0,0,0,0.6);overflow: auto;text-align: center; display: block; z-index: 9;">
+		<div style="background: white;width: 370px;height: 265px;margin: auto;margin-top: 200px;border-radius: 5px;">
+			<div style="height: 225px;border-bottom: 1px solid #CCCCCC;">
+				<!-- 框内内容 -->
+				<div style="font-size: 1.2rem;padding-top: 18px; padding-bottom: 10px;border-bottom: 1px solid #CCCCCC; " >恭喜你刷到了优惠信息啦？</div>
+				<div style="font-size: 0.8rem;margin-top: 15px;"><img src="./tools/20180512-102947-2.png" width="370px" height="121px" >  </div>
+                <div style="font-size: 0.9rem;padding-top: 5px; padding-bottom: 0px;">快联系客服领取吧!</div>
+
+			</div>
+			<div style="height: 39px;">
+				<div onclick="javascript:window.location.href=''" style="float: left;width: 49%;height: 39px;border-right: 1px solid #CCCCCC;line-height: 39px;font-size: 1rem; display: none;">确认</div>
+				<div onclick="javascript:document.getElementById('delete').style.display='none';" style="line-height: 35px;font-size: 1rem">取消</div>
+			</div>
+		</div>
+	</div>
+    
+    
 <script type="text/javascript">
 /* <![CDATA[ */
 /* dt-plugins */
@@ -400,6 +430,20 @@ var dtLocal = {"passText":"To view this protected post, enter the password below
 var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20","image":"\u56fe\u7247","of":"\/","close":"\u5173\u95ed","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"\/\/f.goodq.top\/FeiEditor\/bitSite\/images\/preloader.gif"};
 
 /* ]]> */
+
+
+console.log(localStorage["lasttime"]);
+if( undefined == localStorage["lasttime"] ||  localStorage["lasttime"] == null){
+    document.getElementById('delete').style.display='display';
+    localStorage["lasttime"]=new Date().getTime();
+}else if( (new Date().getTime() - localStorage["lasttime"] ) > 1000*60*6){
+    document.getElementById('delete').style.display='display';
+    localStorage["lasttime"]=new Date().getTime();
+}else {
+    document.getElementById('delete').style.display='none';
+}
+
+
 </script>
 <script type="text/javascript" src="./tools/d241f80baf249f67bb3899ef42dd2607.js.下载">/*Cache!*/</script>
 <link rel="stylesheet" href="./tools/84eab67c71013795357fe496689d294e.css" type="text/css" media="all"> <!-- Cache! -->
