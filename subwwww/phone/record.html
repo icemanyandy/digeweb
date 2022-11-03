@@ -15,7 +15,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="robots" content="index, follow">
-<title> Motionface</title>
+<title> Motionface 实时语音同步</title>
 
 
 	<!--[if lt IE 9]>
@@ -335,7 +335,7 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
 	   
 	   if (as !== null && as !== undefined && as !== '') 
 	   {
-			$.ajax({url:"/cgi/speak",async:true, data: {content:encodeURI(as)} });
+			$.ajax({url:urlhead+"cgi/speak",async:true, data: {content:encodeURI(as)} });
 
 	   }else {
 			alert("请输入要发送的内容.");
@@ -345,20 +345,20 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
     };
 	
 	function onHairClick(){
-	    $.ajax({url:"/cgi/hair",async:true});
+	    $.ajax({url:urlhead+"cgi/hair",async:true});
 
     };
 	
 	function onGlassesClick(){
-	    $.ajax({url:"/cgi/glasses",async:true});
+	    $.ajax({url:urlhead+"cgi/glasses",async:true});
     };
 	
 	function onBeardClick(){
-	    $.ajax({url:"/cgi/beard",async:true});
+	    $.ajax({url:urlhead+"cgi/beard",async:true});
     };
 	
 	function onExpressionClick(){
-	    $.ajax({url:"/cgi/express",async:true});
+	    $.ajax({url:urlhead+"cgi/express",async:true});
     };
 	
 	  function uploadFile() {
@@ -379,7 +379,7 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
         xhr.addEventListener("load", uploadComplete, false);
         xhr.addEventListener("error", uploadFailed, false);
         xhr.addEventListener("abort", uploadCanceled, false);
-        xhr.open("POST", "/cgi/saveimage");
+        xhr.open("POST", urlhead+"cgi/saveimage");
         xhr.send(fd);
       }
 
@@ -426,7 +426,7 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
 			xhr.addEventListener("load", uploadComplete1, false);
 			xhr.addEventListener("error", uploadFailed1, false);
 			xhr.addEventListener("abort", uploadCanceled1, false);
-			xhr.open("POST", "/cgi/savewav");
+			xhr.open("POST", urlhead+"cgi/savewav");
 			xhr.send(fd);
       }
 
@@ -691,7 +691,7 @@ function upload() {
 			//xhr.addEventListener("load", uploadComplete1, false);
 			//xhr.addEventListener("error", uploadFailed1, false);
 			//xhr.addEventListener("abort", uploadCanceled1, false);
-			xhr.open("POST", urlhead+"/cgi/savewav");
+			xhr.open("POST", urlhead+"cgi/savewav");
 			xhr.send(fd);
 
 	leftDataList = [];
