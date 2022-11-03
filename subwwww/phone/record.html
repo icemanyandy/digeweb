@@ -708,8 +708,12 @@ document.onkeydown = function(event) {
     //console.log("keyCode "+ event.keyCode;
 	if(event.keyCode == 32){//space
 		pauseRecord();
+		return false;
+
 	}else if(event.keyCode == 13){ //enter
 		upload();
+		return false;
+       
 	}
 }
 
