@@ -830,10 +830,7 @@ function _qfy_jplayer_init(){
 function bit_counterdown(){
 	 if(jQuery(".ts-countdown-parent").length==0) return;
 	 if(typeof jQuery.fn.countEverest=="undefined"){
-		 jQuery.onDemandScript("/FeiEditor/bitSite/js/jquery.vcsc.counteverest.min.js",function() {
-			 jQuery('head').append('<link href="/FeiEditor/bitSite/css/jquery.vcsc.counteverest.min.css" rel="stylesheet" type="text/css" />');
-			 _bit_counterdown();
-		 })
+		 
 	 }else{
 		 _bit_counterdown();
 	 }
@@ -921,10 +918,7 @@ if ( typeof window['vc_plugin_flexslider'] !== 'function' ) {
 	function vc_plugin_flexslider() {
 		if (jQuery('.qfe_flexslider').length == 0) return;
 		if (typeof jQuery.fn.flexslider == "undefined") {
-			jQuery.onDemandScript("/qfy-content/plugins/qfy_editor/assets/lib/flexslider/jquery.flexslider-min.js",function () {
-				jQuery('head').append('<link href="/qfy-content/plugins/qfy_editor/assets/lib/flexslider/flexslider.css" rel="stylesheet" type="text/css" />');
-				_vc_plugin_flexslider();
-			})
+			 
 		} else {
 			_vc_plugin_flexslider();
 		}
@@ -3450,7 +3444,6 @@ function initmouseover(){
 		});
 
 	if(jQuery("a.list_popup").length>0){
-		jQuery.onDemandScript("/qfy-content/themes/qfy-01/js/list_popup.js", function(){initQfyPopup()});
 	};
 
 	//
@@ -3502,9 +3495,7 @@ function qfy_a_video_event(){
 			}
 		})
 		if($is_has_video){
-			jQuery.onDemandScript("/qfy-content/themes/qfy-01/js/a-video.js", function(){
-				qfy_a_video_event_init();
-			});
+			 
 		}
 	}
 
@@ -3568,9 +3559,7 @@ function thebackground(qfy_bg_images,time) {
 
 function vc_3d_photo(){
 	if(jQuery(".qfy-360viewer").length>0) {
-		jQuery.onDemandScript("/qfy-content/themes/qfy-01/js/a-3d-photo.js", function () {
-			vc_3d_photo_init();
-		});
+		 
 	}
 }
 
@@ -3586,9 +3575,7 @@ function vc_element_init(){
 }
 function right_nav_bar(){
 	if( jQuery(".right_nav_bar").length>0 ){
-		jQuery.onDemandScript("/qfy-content/themes/qfy-01/js/a-right-navbar.js", function(){
-			right_nav_bar_init();
-		});
+		 
 	}
 }
 
@@ -3685,9 +3672,7 @@ function vc_royalSlider_gallery_init(){
 	}
 
 	 if(typeof jQuery.fn.royalSlider=="undefined"){
-		 jQuery.onDemandScript("/FeiEditor/bitSite/js/jquery.royalslider.min.js",function() {
-			 _vc_royalSlider_gallery_init();
-		 })
+		  
 	 }else{
 		 _vc_royalSlider_gallery_init();
 	 }
@@ -3729,9 +3714,7 @@ function lottieReady($){
 		return;
 	}
 	if(typeof lottie=="undefined"){
-		$.onDemandScript("/FeiEditor/bitSite/js/lottie.min.js",function() {
-			_lottieReady($);
-		})
+		
 	}else{
 		_lottieReady($);
 	}
@@ -3902,24 +3885,7 @@ function shape_ready(){
 		return;
 	}
 	if(typeof anime=="undefined"){
-		jQuery.onDemandScript("/FeiEditor/bitSite/js/anime.min.js",function() {
-			jQuery(".shape_image_svg:not(.loaded)").each(function(){
-				var shapeEl = jQuery(this).find("path")[0];
-				var pos = jQuery(this).attr("data-path");
-				var duration = jQuery(this).attr("data-t");
-				var begin = jQuery(this).attr("data-begin");
-				var end = jQuery(this).attr("data-end");
-				if(pos==99){
-					if(begin && end && begin.indexOf(",")>-1&& end.indexOf(",")>-1){
-						shape_loop_init(shapeEl,pos,duration*1,begin,end,jQuery(this).parent().hasClass("background-shapes"));
-					}
-				}else{
-					shape_loop_init(shapeEl,pos-1,duration*1,"","",jQuery(this).parent().hasClass("background-shapes"));
-				}
-
-				jQuery(this).addClass("loaded");
-			})
-		})
+		 
 	}else{
 
 		jQuery(".shape_image_svg:not(.loaded)").each(function(){
@@ -4458,9 +4424,7 @@ jQuery(document).ready(function($) {
 		}
 	});
 	if(menu_has_href){
-	    $.onDemandScript("/qfy-content/themes/qfy-01/js/a-menu-href.js",function() {
-			mainmenu_href_event();
-		})
+	  
 	}
 	if( $(".yy_website_notice").length>0){
 		var hasnotice=getCookie("yy_website_notice");
@@ -4511,9 +4475,7 @@ function floatmenu_create(){
 
 	if (dtGlobals.isMobile && !dtGlobals.isiPad) smartMenu = false;
 	if (smartMenu && $("#header").length>0 ) {
-		$.onDemandScript("/qfy-content/themes/qfy-01/js/a-menu-float.js",function() {
-			floatmenu_create_init();
-		})
+		 
 	}
 
 }
@@ -5374,9 +5336,7 @@ function qfbookformSubmit(obj){
 //有侧栏的时候再加载这个函数
 function parallax_scroll_fun(){
 	if(jQuery("#parallax-nav").length>0){
-		jQuery.onDemandScript("/qfy-content/themes/qfy-01/js/a-scroll.js",function() {
-			parallax_scroll_fun_init();
-		})
+		
 	}
 }
 function checkAdvertising(){
