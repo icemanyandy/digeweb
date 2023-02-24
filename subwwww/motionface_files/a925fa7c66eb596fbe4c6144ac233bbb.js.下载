@@ -128,10 +128,7 @@ function vc_js_init(){
 	// BEGIN
 	if(jQuery(".swiper-container:not(.loaded)").length>0){
 		 if(typeof jQuery.fn.Swiper=="undefined"){
-			 jQuery.onDemandScript("/FeiEditor/bitSite/js/swiper/swiper-4.1.0.min.js",function() {
-				 jQuery('head').append('<link href="/FeiEditor/bitSite/js/swiper/swiper-4.1.0.min.css" rel="stylesheet" type="text/css" />');
-				 swiper_event();
-			 })
+			 
 		 }else{
 			 swiper_event();
 		 }
@@ -5936,36 +5933,7 @@ jQuery(document).ready(function($) {
 	var current_page_id = jQuery('body').attr('data-pid');
 	var current_page_key = jQuery('body').attr('data-pkey');
 	if(current_page_id != '' && current_page_id != 'undefined' && current_page_key != '' && current_page_key != 'undefined'){
-	    jQuery.ajax({
-	        url: '/FeiEditor/traffic/log',
-	        type: 'post',
-	        async: true,
-			dataType: "JSON",
-	        data: {
-	        	st_pid: current_page_id,
-	        	st_pkey: current_page_key,
-				st_ip:  (!is_edit_model && dtGlobals.visit_country_enable==1)?1:0,
-	        },
-			success: function(rlt) {
-				if(rlt.redirect && rlt.redirect!=""){
-					location.href = rlt.redirect;
-				}else if(rlt.flag==0){
-					jQuery.onDemandScript("/FeiEditor/bitSite/js/log.js",function() {
-						var fingerprint = new Fingerprint({canvas: true}).get();
-						fingerprint  = window.btoa(fingerprint);
-						fingerprint  = window.btoa(fingerprint);
-						jQuery.ajax({
-							url: '/FeiEditor/traffic/log_r',
-							type: 'post',
-							async: true,
-							data: {
-								fprint:fingerprint
-							}
-						});
-					})
-				}
-			}
-	    });
+
 	}
 	setTimeout(function(){
 		try{
