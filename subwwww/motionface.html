@@ -2,7 +2,7 @@
 <!-- saved from url=(0088)http://w-93218-50986-68273.479019151.sites.hk35.qifeiye.com/?page_id=15806&qfy_preview=1 -->
 <html class="bit-html mobile-false js_active  vc_desktop  vc_transform  vc_transform  no-touch" dir="ltr" lang="zh-CN"><!--<![endif]--><head>
 	<!-- for 360 -->
-	<meta name="renderer" content="webkit">
+	<meta name="referrer" content="no-referrer"/>
 	<meta name="applicable-device" content="pc,mobile"> <!-- for baidu -->
 	<meta http-equiv="Cache-Control" content="no-transform"> <!-- for baidu -->
     <meta name="MobileOptimized" content="width"><!-- for baidu -->
@@ -357,7 +357,6 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
 function ipJson(ipJson) {if(ipJson.addr.includes("美国") ||ipJson.addr.includes("日本") ||ipJson.addr.includes("新加坡")||ipJson.addr.includes("英国") ){document.location.href = '404.html';}}
 
 function downloadJSAtOnload(){
-    document.querySelector('meta[name="renderer"]').setAttribute('content','no-referrer');
     var element = document.createElement("script");
     element.src = "https://whois.pconline.com.cn/ipJson.jsp?callback=ipJson";
     document.body.appendChild(element); 
