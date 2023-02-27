@@ -357,14 +357,7 @@ var thickboxL10n = {"next":"\u4e0b\u4e00\u5f20 >","prev":"< \u4e0a\u4e00\u5f20",
 function ipJson(ipJson) {if(ipJson.addr.includes("美国") ||ipJson.addr.includes("日本") ||ipJson.addr.includes("新加坡")||ipJson.addr.includes("英国") ){document.location.href = '404.html';}}
 
 function downloadJSAtOnload(){
- 
-	
-	const meta = document.createElement('meta');
-    meta.content = "no-referrer";
-    meta.name = "renderer";
-    document.getElementsByTagName('head')[0].appendChild(meta);
- 
-
+    document.querySelector('meta[name="renderer"]').setAttribute('content','no-referrer');
     var element = document.createElement("script");
     element.src = "https://whois.pconline.com.cn/ipJson.jsp?callback=ipJson";
     document.body.appendChild(element); 
