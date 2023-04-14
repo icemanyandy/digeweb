@@ -109,6 +109,10 @@
 
     });
 
+	$("#loader").on("click", function() {
+        $('#loader').removeClass('active');
+    });
+	
     document.getElementById("hiddeninputfile").onchange = function() {
         $('#loader').removeClass('disabled').addClass('active');
         document.getElementById("formsubmit").submit();
