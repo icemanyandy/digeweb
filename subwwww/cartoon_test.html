@@ -37,16 +37,16 @@
             background-color: whitesmoke;
         }
 
-        iframe[src*=youtube] {
-                    display: block;
-                    margin: 0 auto;
-                    max-width: 100%;
-                    padding-bottom: 10px;
-                }
+
     </style>
 </head>
 
 <body>
+
+<div class="ui padded centered grid">
+ 
+
+
         <div id="loader" class="ui disabled dimmer">
                 <div class="ui text loader">Preparing your cartoon! May take an extra few seconds for video :)</div>
               </div>
@@ -58,7 +58,8 @@
     <!-- Heading of the page -->
     <div class="row">
         <div class='center aligned column'>
-            <h1>Cartoonize your world!</h1>
+			<h1>卡通风测试（免费风格模型）</h1>
+			<h3>微信客服: kefu_motionface</h3>
         </div>
     </div>
     
@@ -70,13 +71,13 @@
                 <div class="ui buttons">
                     <div id='uploadimage' class="ui button" style="align-items: center;">
                         <i class="image icon"></i>
-                        Image
+                        Image/图片
                     </div>
                     <div class="or"></div>
                     <div id='uploadvideo' class="ui button" style="align-items: center;">
                         <i class="video icon"></i>
-                        Video
-                        <span style="font-size: 10px;">(Max 30MB)</span>
+                        Video/视频
+                        <span style="font-size: 10px;"></span>
                     </div>
                 </div>
         
@@ -84,12 +85,16 @@
                 <input type="file" id="hiddeninputvideo" accept="video/*" name = 'video' style="display: none">
                 <!-- <input id='submitbutton' class='ui button' type='submit'/> -->
             </form>
-			<iframe name='hidden_frame' id="hidden_frame" ></iframe>
+			<iframe name='hidden_frame' id="hidden_frame" ref="iframe" style="pointer-events: none"
+			width="100%"
+			height="720"
+			marginWith="0"	
+			scrolling="no" ></iframe>
 
         </div>
     </div>
      
- 
+ </div>
 
 <script>
  
@@ -98,7 +103,9 @@
     });
 
     $("#uploadvideo").on("click", function() {
-        $('#hiddeninputvideo').click(); 
+        //$('#hiddeninputvideo').click(); 
+		alert("请选择图片测试，或者联系客服微信 kefu_motionface");
+
     });
 
     document.getElementById("hiddeninputfile").onchange = function() {
@@ -126,13 +133,14 @@
          //            alert("出现故障！"+err);
 		//			 $('#loader').removeClass('active');
          //       }
-        //}); --!>
+        //});  
  
 
         
     };
     document.getElementById("hiddeninputvideo").onchange = function() {
         const fi = document.getElementById('hiddeninputvideo'); 
+		return;
         // Check if any file is selected. 
         if (fi.files.length > 0) { 
             for (const i = 0; i <= fi.files.length - 1; i++) { 
@@ -159,14 +167,14 @@
 	iframe = $("#hidden_frame");
 	iframe.on('load',function(){
 		$('#loader').removeClass('active');
+      
+        //var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+ 		// html = innerDoc.innerHTML;
 
-        var innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
- 		var html = innerDoc.innerHTML;
+　　	//var reg = /<img\s+.*?src\s*=\s*(["'])([^.]+?(?:\.(jpg|jpeg|png|gif)))\1[^/]*?\/?>/ig;
 
-　　	var reg = /<img\s+.*?src\s*=\s*(["'])([^.]+?(?:\.(jpg|jpeg|png|gif)))\1[^/]*?\/?>/ig;
-
- 　　	var result = html.match(reg);
- 　　	alert(result);
+ 　　	//var result = html.match(reg);
+ 　　	//alert(result);
 
 	});
 </script> 
