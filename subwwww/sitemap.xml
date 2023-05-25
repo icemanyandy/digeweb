@@ -36,4 +36,29 @@
      <loc>http://www.motionface.cn/vtuberface.html</loc>  
      <changefreq>daily</changefreq>
  </url>
+   <url> 
+     <loc>http://www.motionface.cn/talkingheads.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+   <url> 
+     <loc>http://www.motionface.cn/superpixel.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+   <url> 
+     <loc>http://www.motionface.cn/respeak.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ 
+    <url> 
+     <loc>http://www.motionface.cn/reface.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+    <url> 
+     <loc>http://www.motionface.cn/newavatar_help.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+    <url> 
+     <loc>http://www.motionface.cn/mcartoon.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
 </urlset>
