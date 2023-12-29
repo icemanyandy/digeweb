@@ -4,61 +4,65 @@
  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9            
  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url> 
-     <loc>http://www.motionface.cn</loc>  
+     <loc>https://www.motionface.cn</loc>  
      <changefreq>daily</changefreq>
  </url>
  <url> 
-     <loc>http://www.motionface.cn/index_backup.html</loc>  
-     <changefreq>daily</changefreq>
- </url>
-  <url> 
-     <loc>http://www.motionface.cn/mcartoon.html</loc>  
+ <loc>https://motionface.cn/tools.html</loc>  
      <changefreq>daily</changefreq>
  </url>
  <url> 
-     <loc>http://www.motionface.cn/motionface.html</loc>  
+     <loc>https://www.motionface.cn/index_backup.html</loc>  
      <changefreq>daily</changefreq>
  </url>
   <url> 
-     <loc>http://www.motionface.cn/motionface_help.html</loc>  
+     <loc>https://www.motionface.cn/mcartoon.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+ <url> 
+     <loc>https://www.motionface.cn/motionface.html</loc>  
+     <changefreq>daily</changefreq>
+ </url>
+  <url> 
+     <loc>https://www.motionface.cn/motionface_help.html</loc>  
      <changefreq>daily</changefreq>
  </url>
    <url> 
-     <loc>http://www.motionface.cn/newavatar.html</loc>  
+     <loc>https://www.motionface.cn/newavatar.html</loc>  
      <changefreq>daily</changefreq>
  </url>
  <url> 
-     <loc>http://www.motionface.cn/umurongo.html</loc>  
+     <loc>https://www.motionface.cn/umurongo.html</loc>  
      <changefreq>daily</changefreq>
  </url>
  
   <url> 
-     <loc>http://www.motionface.cn/vtuberface.html</loc>  
+     <loc>https://www.motionface.cn/vtuberface.html</loc>  
      <changefreq>daily</changefreq>
  </url>
    <url> 
-     <loc>http://www.motionface.cn/talkingheads.html</loc>  
+     <loc>https://www.motionface.cn/talkingheads.html</loc>  
      <changefreq>daily</changefreq>
  </url>
    <url> 
-     <loc>http://www.motionface.cn/superpixel.html</loc>  
+     <loc>https://www.motionface.cn/superpixel.html</loc>  
      <changefreq>daily</changefreq>
  </url>
    <url> 
-     <loc>http://www.motionface.cn/respeak.html</loc>  
+     <loc>https://www.motionface.cn/respeak.html</loc>  
      <changefreq>daily</changefreq>
  </url>
  
     <url> 
-     <loc>http://www.motionface.cn/reface.html</loc>  
+     <loc>https://www.motionface.cn/reface.html</loc>  
      <changefreq>daily</changefreq>
  </url>
     <url> 
-     <loc>http://www.motionface.cn/newavatar_help.html</loc>  
+     <loc>https://www.motionface.cn/newavatar_help.html</loc>  
      <changefreq>daily</changefreq>
  </url>
     <url> 
-     <loc>http://www.motionface.cn/mcartoon.html</loc>  
+     <loc>https://www.motionface.cn/eyemock.html</loc>  
      <changefreq>daily</changefreq>
  </url>
 </urlset>
